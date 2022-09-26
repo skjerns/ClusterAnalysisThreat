@@ -43,7 +43,7 @@ grand_diff = mne.combine_evoked(list(grands.values()) , weights=[1, -1])
 
 
 #%% cluster analysis
-tmin = 0.1
+tmin = 0.3
 tmax = 0.6
 
 data = {}
